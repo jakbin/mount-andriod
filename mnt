@@ -1,0 +1,9 @@
+#!/bin/bash
+
+cd ~/Desktop
+umount mnt
+rmdir mnt
+mkdir mnt
+mtp-detect
+sleep 3
+jmtpfs mnt
